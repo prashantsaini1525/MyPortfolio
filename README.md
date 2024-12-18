@@ -13,11 +13,13 @@ Hi there! I'm **Prashant Saini**, an enthusiastic fresher with a passion for cod
 ---
 
 ## 🛠️ Skills
-- **Languages**: JavaScript, Java, SQL
-- **Web Development**: HTML, CSS, Node.js, EJS
-- **Database**: MongoDB
-- **Version Control**: Git & GitHub
-
+- **Programming Languages**: Java, JavaScript  
+- **Backend**: Node.js  
+- **Markup, Styling & Web Technologies**: HTML, CSS, EJS  
+- **Version Control**: Git, GitHub  
+- **Database Management**: MongoDB, SQL  
+- **Productivity Software**: Excel, Notion, Custom Chatbot  
+- **Development Tools**: Visual Studio Code, Google Colaboratory, Power BI  
 
 ---
 
