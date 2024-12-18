@@ -1,22 +1,28 @@
-*{
+/*==========================Reset and General Styles============================*/
+* {
     margin: 0;
     padding: 0;
     font-family: 'poppins', sans-serif;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
     background: #080808;
     color: #fff;
+    font-size: 16px;
 }
+
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/);
+    background: url("images/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .container{
@@ -66,7 +72,8 @@ nav {
 
 nav.sticky {
     padding: 10px 100px;
-    background: #b54769;
+    background: #1b1b1b;
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.1);
 }
 
 nav.sticky .logo, 
@@ -127,6 +134,7 @@ nav ul li a.active{
 .header-text h1 span{
     color: #ff004f;
 }
+
 .btn-btn1{
     display: block;
     margin: 20px auto;
@@ -484,7 +492,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phone-background.png);
+        background-image: url(images/background.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -493,9 +501,16 @@ nav .fas{
     .header-text h1{
         font-size: 30px;
     }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
     nav .fas{
         display: block;
         font-size: 25px;
+        cursor: pointer;
     }
     nav ul{
         background: #ff004f;
@@ -505,6 +520,8 @@ nav .fas{
         width: 200px;
         height: 100vh;
         padding-top: 50px;
+        align-items: center;
+        display: block;
         z-index: 2;
         transition: right 0.5s;
     }
