@@ -23,5 +23,4 @@ document.addEventListener("DOMContentLoaded", function() {
             $('html, body').animate({scrollTop : 0},800);
         });
     }); 
-    
 });
