@@ -512,15 +512,15 @@ nav .fas{
         background: #1b1b1b; 
     }
     .logo {
-        margin-right: 10px; /* Add space to the right of the logo */
+        margin-right: 10px; 
     }
 
     .logo img {
-        width: 25px; /* Adjust size for smaller screens */
+        width: 25px;
     }
 
     .logo a {
-        font-size: 24px; /* Maintain logo text size */
+        font-size: 24px; 
     }
     nav .fas{
         display: block;
